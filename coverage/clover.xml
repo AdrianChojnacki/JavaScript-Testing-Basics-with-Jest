@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1653033375454" clover="3.2.0">
-  <project timestamp="1653033375454" name="All files">
+<coverage generated="1653033977158" clover="3.2.0">
+  <project timestamp="1653033977158" name="All files">
     <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
     <file name="woof.js" path="C:\Users\achojnacki\Desktop\js-testing-basics-with-jest\woof.js">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
