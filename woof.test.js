@@ -7,4 +7,7 @@ test('should return number of woofs', function() {
   expect({a: 'one', b: 'two'}).toEqual({a: 'one', b: 'two'});
   expect(result).toMatch(/\dwoof/i);
   expect(['a', 'b', 'c']).toContain('c');
+
+  const result2 = woof(42);
+  expect(result2).toBe(undefined);
 });
