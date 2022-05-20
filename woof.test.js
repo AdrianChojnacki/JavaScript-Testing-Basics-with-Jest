@@ -1,6 +1,6 @@
 const woof = require('./woof');
 
-test('should return number of woofs', function() {
+test.only('should return number of woofs', function() {
   const result = woof('oh herro');
   expect(result).toBe('8woof!');
   expect(result).not.toBe('sadlkhsadklsaj');
@@ -9,8 +9,15 @@ test('should return number of woofs', function() {
   expect(['a', 'b', 'c']).toContain('c');
 });
 
-test('should return undefined when not given a string', () => {
+test.skip('should return undefined when not given a string', () => {
   // const result = woof();
   // expect(result).toBeNull;
   expect(() => woof()).toThrow("MUST");
+  woof();
 });
+
+test('failed test', () => {
+  woof();
+});
+
+test.todo("should not allow numbers to be passed");
