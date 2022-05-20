@@ -10,6 +10,6 @@ test('should return number of woofs', function() {
 });
 
 test('should return undefined when not given a string', () => {
-  const result = woof(42);
-  expect(result).toBe(undefined);
+  const result = woof();
+  expect(result).toBeNull;
 });
